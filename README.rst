@@ -24,27 +24,47 @@ Test on EBI course
 
 This is a simple test to let you familirize the use of *cookiecutter* to establish a project, using *poetry* for creating virtual environment and add it to your project **pyproject.toml** file and link to the github repo
 Apart from this, this is also a practice for the sphinx text to write the 
-Here follows some code to document the command to establish this: 
-1. Use cookiecutter to establish a project, specify the MIT licence
-`cookiecutter https://github.com/pyOpenSci/cookiecutter-pyopensci.git`
-2. As the proejct has been created already, so then we init the *poetry*, where the pyproject.toml file will be initiated
-`poetry init `
-3. To add packages to your virtual environment, for instance, the package dependencies can be checked in the poetry.lock file
-`poetry add scanpy`
-`poetry env info`
-`poetry shell`
-4. As the cookiecutter has already created a **requirement.txt** file, we can also add it to the poetry init
-`poetry add "cat requirements_dev.txt"`
-5. To establish link from the local repository to the Github repo, we need to establish the SSH key link first, for this part, check ChatGPT, it offers good tutorial, afterwards, we establish link to the github repo
-`cd bioinfo_course`
-`git init .`
-`git add .`
-`git commit -m "Initial skeleton."`
- `git remote add origin git@github.com:YuchenXiangEMBL/bioinfo_course.git`
- `git push -u origin main`
- 6. Now we can check the Github repo for the package
- `The link to github <https://github.com/YuchenXiangEMBL/bioinfo_course>`_
 
+Here follows some code to document the command to establish this: 
+
+1. Use cookiecutter to establish a project, specify the MIT licence
+
+``cookiecutter https://github.com/pyOpenSci/cookiecutter-pyopensci.git``
+
+2. As the proejct has been created already, so then we init the *poetry*, where the pyproject.toml file will be initiated
+
+``poetry init ``
+
+3. To add packages to your virtual environment, for instance, the package dependencies can be checked in the poetry.lock file
+
+``poetry add scanpy``
+``poetry env info``
+``poetry shell``
+
+4. As the cookiecutter has already created a **requirement.txt** file, we can also add it to the poetry init
+
+``poetry add "cat requirements_dev.txt"``
+
+5. To establish link from the local repository to the Github repo, we need to establish the SSH key link first, for this part, check ChatGPT, it offers good tutorial, afterwards, we establish link to the github repo
+
+``cd bioinfo_course``
+``git init .``
+``git add .``
+``git commit -m "Initial skeleton."``
+``git remote add origin git@github.com:YuchenXiangEMBL/bioinfo_course.git``
+``git push -u origin main``
+
+6. Now we can check the Github repo for the package
+
+`The link to github <https://github.com/YuchenXiangEMBL/bioinfo_course>`_
+
+7. To update the Github repository with the modified changes,
+
+``git add .``
+``git commit -m "update 1"``
+``git push origin main``
+
+8. I am still learning in this process and will keep updating the new knowledge ...
 
 
 
