@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 """Tests for `bioinfo_course` package."""
+import sys
+import os
+sys.path.append('/Users/xiang/Documents/Pre-doc_Course/EBI/bioinfo_course/')
+
 import pytest
 from bioinfo_course import bioinfo_course
-from bioinfo_course.bioinfo_course import Person
+from bioinfo_course import Person
 
 # Test class for Person
 class TestPerson:
