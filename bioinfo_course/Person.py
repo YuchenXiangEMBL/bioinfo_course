@@ -13,8 +13,8 @@ class Person:
         """        
         print(f'hello, my name is {self.name} and I am {self.age} years old')
 
-Alice=Person('Alice',24)
-Bob=Person('Bob',30)
+#Alice=Person('Alice',24)
+#Bob=Person('Bob',30)
 
-Alice.greet()
-Bob.greet()
+#Alice.greet()
+#Bob.greet()

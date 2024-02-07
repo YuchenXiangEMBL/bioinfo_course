@@ -31,6 +31,8 @@ Here follows some code to document the command to establish this:
 
 ``cookiecutter https://github.com/pyOpenSci/cookiecutter-pyopensci.git``
 
+`The reference link for more info on this cookiecutter template <https://cookiecutter-pyopensci.readthedocs.io/en/latest/tutorial.html>`
+
 2. As the proejct has been created already, so then we init the *poetry*, where the pyproject.toml file will be initiated
 
 ``poetry init``
@@ -46,6 +48,8 @@ Here follows some code to document the command to establish this:
 4. As the cookiecutter has already created a **requirement.txt** file, we can also add it to the poetry init
 
 ``poetry add "cat requirements_dev.txt"``
+
+`The reference link can be found on <https://realpython.com/dependency-management-python-poetry/>`_
 
 5. To establish link from the local repository to the Github repo, we need to establish the SSH key link first, for this part, check ChatGPT, it offers good tutorial, afterwards, we establish link to the github repo
 
@@ -73,7 +77,11 @@ Here follows some code to document the command to establish this:
 
 ``git push origin main``
 
-8. I am still learning in this process and will keep updating the new knowledge ...
+8. `For a better reference to the RestructuredText format <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#external-links>`_
+
+`This link might also help <https://sphinx-tutorial.readthedocs.io/step-1/>`_
+
+9. I am still learning in this process and will keep updating the new knowledge ...
 
 
 
